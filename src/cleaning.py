@@ -12,41 +12,28 @@ def clean_data(df) :
     
     return df 
 
-#Find any missing values for borough
-def find_borough(df) :  
-
-    #create a df with only borough and locaton
-    df_out = df[['borough','location']] 
-
+#find any missing value with location as target
+def find_datas_with_localite(df, df_out, column_name) :  
+    
     #delete row with no element
     df_out = df_out.dropna()
 
     #delete duplicates data 
     df_out = df_out.drop_duplicates(subset=None, keep='first', inplace=False) #drop duplicate data 
 
-    #create a dictionnary with location as index with df_out from location and borough
-    dic = pd.Series(df_out.borough.values,index=df_out.location).to_dict()
+    #create a dictionnary with location as key value 
+    name_list = df_out[column_name].tolist()
+    location_list = df_out['location'].tolist()
+    dic = dict(zip(location_list, name_list))
 
     # map the values on the dataframe
-    df["borough"] = df["location"].map(dic)
+    df[column_name] = df["location"].map(dic)
 
     return df 
 
-def find_on_street_name(df) :  
+# replace nan values in the dataset by 'Unspecified' in contributing_factor_vehicule columns 
+def replace_nan_value(df) :
 
-    #create a df with only on_street_name and locaton
-    df_out = df[['on_street_name','location']] 
-
-    #delete row with no element
-    df_out = df_out.dropna()
-
-    #delete duplicates data 
-    df_out = df_out.drop_duplicates(subset=None, keep='first', inplace=False) #drop duplicate data 
-
-    #create a dictionnary with location as index with df_out from location and on_street_name
-    dic = pd.Series(df_out.on_street_name.values,index=df_out.location).to_dict()
-
-    # map the values on the dataframe
-    df["on_street_name"] = df["location"].map(dic)
+    df[['contributing_factor_vehicle_1','contributing_factor_vehicle_2', 'contributing_factor_vehicle_3', 'contributing_factor_vehicle_4', 'contributing_factor_vehicle_5']] = df[['contributing_factor_vehicle_1','contributing_factor_vehicle_2', 'contributing_factor_vehicle_3', 'contributing_factor_vehicle_4', 'contributing_factor_vehicle_5']].fillna('Unspecified')
 
     return df 
