@@ -1,0 +1,359 @@
+,vehicle_type_code2
+Sedan,28562
+Station Wagon/Sport Utility Vehicle,22726
+Bike,3408
+Taxi,2150
+Pick-up Truck,2061
+Box Truck,1997
+Bus,943
+Motorcycle,678
+Tractor Truck Diesel,664
+Van,491
+E-Scooter,371
+E-Bike,288
+Dump,255
+Ambulance,214
+Flat Bed,210
+Convertible,170
+Moped,149
+Garbage or Refuse,131
+PK,127
+Carry All,116
+Tractor Truck Gasoline,96
+Motorbike,86
+E-Sco,85
+Tow Truck / Wrecker,71
+E-Bik,66
+Motorscooter,64
+Chassis Cab,49
+Concrete Mixer,44
+Tanker,43
+4 dr sedan,33
+Refrigerated Van,25
+AMBULANCE,23
+MOPED,21
+Armored Truck,20
+3-Door,20
+van,19
+LIMO,17
+TRUCK,17
+Flat Rack,16
+FIRE TRUCK,16
+Minibike,15
+Stake or Rack,15
+UNKNOWN,14
+Lift Boom,14
+Beverage Truck,14
+PASSENGER VEHICLE,13
+AMBUL,13
+TRAIL,12
+UNK,12
+FDNY,12
+Multi-Wheeled Vehicle,11
+Open Body,11
+School Bus,10
+DUMP,9
+SCOOTER,9
+USPS,8
+TRAILER,8
+FIRETRUCK,8
+E-SCOOTER,8
+Van Camper,8
+DELV,7
+FORKL,7
+FIRE,7
+Pedicab,7
+UNKNO,7
+E-BIKE,7
+Bulk Agriculture,6
+unkno,5
+Fire Truck,5
+Unknown,5
+SPORT UTILITY / STATION WAGON,5
+FDNY TRUCK,5
+BOX T,4
+unk,4
+ambul,4
+DELIV,4
+ambulance,4
+Fire truck,4
+COMMERCIAL,4
+truck,4
+FIRET,4
+Lunch Wagon,4
+COM,4
+Ambul,3
+SCOOT,3
+MTA B,3
+Scooter,3
+PICK UP,3
+POWER SHOV,3
+tow t,3
+Tow Truck,3
+Pickup,3
+FORKLIFT,3
+E-BIK,3
+Trailer,3
+DIRT BIKE,3
+SCHOO,3
+ELECT,3
+Pallet,3
+TRACTOR TR,3
+2 dr sedan,3
+STREE,3
+unknown,3
+Minicycle,3
+usps,3
+trailer,3
+scooter,3
+ICE CREAM,3
+trail,3
+FORK,3
+Fire,3
+BOX TRUCK,3
+FDNY FIRE,2
+scoot,2
+E-scooter,2
+fire truck,2
+REFG,2
+GOLF CART,2
+wagon,2
+fdny,2
+bus,2
+SANITATION,2
+USPS TRUCK,2
+commercial,2
+bobca,2
+UTIL,2
+VAN T,2
+Vanette,2
+BACKH,2
+FDNY EMS,2
+US PO,2
+WORK,2
+TRACTOR,2
+Pickup with mounted Camper,2
+GARBA,2
+fire,2
+Firetruck,2
+forklift,2
+AMBU,2
+TOW TRUCK,2
+AMBULENCE,2
+E-bik,2
+firet,2
+sanitation,2
+Glass Rack,2
+TRL,2
+tract,2
+Truck,2
+POSTAL TRU,2
+E-SCO,2
+Hopper,2
+Elect,2
+TRAC,2
+PSD,2
+GARBAGE TR,2
+MOVIN,2
+Delivery t,2
+Well Driller,2
+Flatbed,1
+LMA,1
+NYC FIRETR,1
+PASS,1
+DUMP TRUCK,1
+UHAUL,1
+forkl,1
+BOX,1
+HAND,1
+T630 Forkl,1
+ESCOVATOR,1
+Gas Scoote,1
+Lift,1
+18 WEELER,1
+PICK-UP TR,1
+sedan,1
+motor,1
+OTHER,1
+Crane,1
+rep,1
+boom,1
+Unkno,1
+box truck,1
+VEHICLE 2,1
+MTA Truck,1
+fork,1
+E350,1
+SWEEPER,1
+FDNY AMBUL,1
+TRANS,1
+TOWER,1
+Schoo,1
+MAIL,1
+Subn,1
+CHURC,1
+NYC BUS,1
+NYC ACS Va,1
+AMAZON SPR,1
+CAMPE,1
+ELECTRIC S,1
+MOBILE,1
+Utili,1
+BOBCA,1
+mopd,1
+CAT32,1
+Deliv,1
+MAIL TRUCK,1
+SKID LOADE,1
+CRANE,1
+SCHOOLBUS,1
+TOW T,1
+MOTOR,1
+Light trai,1
+Skateboard,1
+Toyota,1
+Dirt Bike,1
+Flat,1
+PICKUP,1
+yello,1
+HEARSE,1
+E SCOOTER,1
+Fire Engin,1
+FD TRUCK,1
+MAILTRUCK,1
+const,1
+trlr,1
+U-HAUL,1
+transport,1
+FRIEGHTLIN,1
+push scoot,1
+INTERNATIO,1
+ROAD SWEEP,1
+firetruck,1
+Pick up tr,1
+VAN,1
+ACCESS A R,1
+e-bike,1
+DIRTBIKE,1
+Pick Truck,1
+GLNEN,1
+Dirt bike,1
+Scoot,1
+FIRE ENGIN,1
+Sanitation,1
+crane,1
+FOOD,1
+Train,1
+LEFT THE S,1
+DELIVERY V,1
+DETAC,1
+constructi,1
+Fleet,1
+golf cart,1
+elect,1
+BOB CAT,1
+EMS TRUCK,1
+motor scoo,1
+Forklift,1
+JOHN,1
+UNKNOWN VE,1
+FREIGHTLIN,1
+USPOS,1
+Postal tru,1
+Motorized Home,1
+E-Scoter,1
+TL,1
+Trail,1
+FDNY Truck,1
+ENCLO,1
+GLP050VXEV,1
+uhaul,1
+POST,1
+SPECIAL PU,1
+FED E,1
+BUs,1
+PALFINGER,1
+Unk,1
+TRACT,1
+Forkl,1
+moped,1
+FLAT BED,1
+Pick,1
+Electric s,1
+MINI VAN,1
+P/SH,1
+Flat bed,1
+ELECTRIC M,1
+IP,1
+RDS,1
+Razor scoo,1
+JLG L,1
+Moped Scoo,1
+ESCOOTER,1
+DELIVERY T,1
+uknown,1
+UKN,1
+JETSKI,1
+E Bik,1
+BULLD,1
+HAUL FOR H,1
+uhaul truc,1
+BACKHOE LO,1
+FDNY firet,1
+Sweeper,1
+LCOM,1
+PC,1
+ENGIN,1
+MACK,1
+Golf Cart,1
+Enclosed Body - Nonremovable Enclosure,1
+RV,1
+Depar,1
+ALUMI,1
+mailtruck,1
+BLACK,1
+E SCO,1
+SUV,1
+Dump truck,1
+TRUCK TRAI,1
+STREET SWE,1
+AMB,1
+Snow Plow,1
+street cle,1
+MOPED SCOO,1
+Van (,1
+util,1
+dump truck,1
+boom lift,1
+FDNY Fire,1
+Dump Truck,1
+INTL,1
+dp,1
+FLATBED,1
+MTA b,1
+HORSE,1
+spec-,1
+E-SKA,1
+RAM,1
+VAN/TRANSI,1
+TUCK,1
+ASPHA,1
+TRA/R,1
+USPS POSTA,1
+motorcycle,1
+sprin,1
+UTILITY TR,1
+itas,1
+4dsd,1
+E-SKATEBOA,1
+Tilt tande,1
+John Deere,1
+GATOR,1
+EBIKE,1
+COMMERICAL,1
+PAS,1
+Tree cutte,1
+DIRTB,1
+FORK LIFT,1
+LADDER TRU,1
+electric s,1

@@ -5,7 +5,7 @@ import re
 from src.cleaning import *
 
 #import dataframe
-df = pd.read_csv('data/data_3000.csv')
+df = pd.read_csv('data/data_100000.csv')
 print(df.isnull().sum())
 
 #exploring_data(df)
@@ -14,14 +14,20 @@ df = clean_data(df)
 #find any missing value for borough', 'on_street_name', 'off_street_name', 'cross_street_name on taget value location 
 list = ['borough', 'on_street_name', 'off_street_name', 'cross_street_name', 'zip_code']
 target = 'location'
+
 for name in list : 
     df_out = df[[name,target]]
     df = find_datas_with_localite(df,df_out, name)
 
-#replace nan values in vehicle_type_code by Unspecified
-df = replace_nan_value(df)
 
-print(df.isnull().sum())
+list = ['vehicle_type_code1', 'vehicle_type_code2', 'vehicle_type_code3']
+
+#for vehicle in list :
+    #df_vehicle = df[[vehicle]]
+    #df = clean_string_vehicle(df_vehicle)
+
+df.vehicle_type_code2.value_counts().to_csv('vechicule_format2')
+
 
 """
 from geopy.geocoders import Nominatim
