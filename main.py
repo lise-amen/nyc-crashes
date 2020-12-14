@@ -3,12 +3,14 @@ import numpy as np
 import re
 
 from src.cleaning import *
+from src.missing_values import *
 
 #import dataframe
 df = pd.read_csv('data/data_100000.csv')
-print(df.isnull().sum())
 
 #exploring_data(df)
+
+
 df = clean_data(df)
 
 #find any missing value for borough', 'on_street_name', 'off_street_name', 'cross_street_name on taget value location 
@@ -20,38 +22,12 @@ for name in list :
     df = find_datas_with_localite(df,df_out, name)
 
 
-list = ['vehicle_type_code1', 'vehicle_type_code2', 'vehicle_type_code3']
+list = ('vehicle_type_code1','vehicle_type_code2', 'vehicle_type_code_3', 'vehicle_type_code_4', 'vehicle_type_code_5')
 
-#for vehicle in list :
-    #df_vehicle = df[[vehicle]]
-    #df = clean_string_vehicle(df_vehicle)
+for vehicule in list :
+    clean_string_vehicle(df[vehicule]) # clean string for each veicle type
 
-df.vehicle_type_code2.value_counts().to_csv('vechicule_format2')
-
-
-"""
-from geopy.geocoders import Nominatim
-geolocator = Nominatim(user_agent='lise')
-location = geolocator.reverse("40.829052 -73.85038")
-print(location.address)
+# standardize column name
+rename_column(df)
 
 
-#extract zip code
-df_zip = df[['zip_code','latitude','longitude']]
-
-#keep only zip code with nan 
-df_zip = df_zip[df_zip['zip_code'].isna()]
-
-df_zip['latitude']=df_zip['latitude'].astype('string')
-df_zip['longitude']=df_zip['longitude'].astype('string')
-
-df_zip['location'] = df_zip['latitude'] + ' ' + df_zip['longitude']
-
-print(df_zip)
-"""
-
-"""
-for value in df['location']:
-    geolocator = Nominatim(user_agent='lise')
-    location = geolocator.reverse(value)
-"""
