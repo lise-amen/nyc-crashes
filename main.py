@@ -28,6 +28,8 @@ for vehicule in list :
     clean_string_vehicle(df[vehicule]) # clean string for each veicle type
 
 # standardize column name
-rename_column(df)
+df = rename_column(df)
 
+#export df to csv 
+df.to_csv('data/data_100000_clean.csv')
 

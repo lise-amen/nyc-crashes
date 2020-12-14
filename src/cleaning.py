@@ -8,7 +8,7 @@ def exploring_data(df) :
 
 def clean_data(df) :
     df = df.drop_duplicates(subset=None, keep='first', inplace=False) #drop duplicate data 
-    df = df[df['location'].notna()]
+    df = df[df['location'].notna()] #drop location without information
     
     # replace nan values in the dataset by 'Unspecified' in contributing_factor_vehicule columns 
     df[['contributing_factor_vehicle_1','contributing_factor_vehicle_2', 'contributing_factor_vehicle_3', 'contributing_factor_vehicle_4', 'contributing_factor_vehicle_5']] = df[['contributing_factor_vehicle_1','contributing_factor_vehicle_2', 'contributing_factor_vehicle_3', 'contributing_factor_vehicle_4', 'contributing_factor_vehicle_5']].fillna('Unspecified')
@@ -20,6 +20,8 @@ def rename_column(df) :
     #rename column to standardizer
     df = df.rename(columns={'vehicle_type_code2':'vehicle_type_code_2'})
     df = df.rename(columns={'vehicle_type_code1':'vehicle_type_code_1'})
+
+    return df 
     
     
 def clean_string_vehicle(df) : 
